@@ -1,0 +1,44 @@
+.container {
+    width: 100%;
+    padding: 1em 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    border-bottom: 2px solid rgb(209, 209, 209);
+}
+
+.container a {
+    cursor: pointer;
+    color: darkgray;
+    font-weight: 400;
+}
+
+.logo {
+    color: cyan;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navLeft {
+    display: flex;
+    align-items: center;
+}
+
+.navLeft a:nth-of-type(2) {
+    margin-left: 2em;
+}
+
+.tab {
+    margin-left: 10em;
+}
+
+.navRight a:nth-of-type(1) {
+    margin-right: 2em;
+}
+
+.logout {
+    cursor: pointer;
+    color: darkgray;
+    font-weight: 400;
+}
